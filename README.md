@@ -1,30 +1,65 @@
 PM App (React + Node/Express + MongoDB)
-
 Goal
-A web-based project management app (MVP): login, task CRUD, assign tasks, and status tracking (To Do / In Progress / Done).
 
-Tech
+A web-based project management app MVP focused on:
+
+Task creation and editing
+
+Task status tracking (To Do / In Progress / Done)
+
+Project dashboard view
+
+Comments on tasks
+
+Tech Stack
+
 Frontend: React + TypeScript (Vite)
 Backend: Node.js + Express
-Database: MongoDB (Atlas recommended)
-Auth: JWT
+Database: MongoDB Atlas
+Future: JWT authentication (planned)
 
 Setup (first time)
-1) Install Node.js (LTS) and Git
-2) Clone the repo
-3) Create server/.env by copying server/.env.example
-4) Fill in MONGO_URI and JWT_SECRET
 
-Run
-npm install
+Install Node.js (LTS) and Git
+
+Clone the repo
+
+Create server/.env by copying server/.env.example
+
+Add your MongoDB Atlas connection string
+
+Set JWT_SECRET
+
+Run:
+
 npm run install:all
 npm run dev
-
 URLs
-Client: http://localhost:5173
-API: http://localhost:5000/health
 
-Team workflow
-- Create a branch per feature: feature/task-crud, feature/auth, etc.
-- Open PRs into main
-- Keep tickets on the GitHub Project board
+Client: http://localhost:5173
+
+API Health: http://localhost:5000/health
+
+Tasks API: http://localhost:5000/tasks
+
+Current Features
+
+Express API connected to MongoDB
+
+Task CRUD endpoints
+
+Comment system on tasks
+
+React frontend ready for dashboard UI
+
+Team Workflow
+
+Create a branch per feature
+
+example: feature/task-crud
+
+example: feature/comments-ui
+
+Open Pull Requests into main
+
+Track work on GitHub Project board
