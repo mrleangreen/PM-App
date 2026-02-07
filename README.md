@@ -26,8 +26,7 @@ Clone the repo
 
 Create server/.env by copying server/.env.example
 
-Add your MongoDB Atlas connection string
-
+Add MongoDB Atlas connection string:  mongodb+srv://greyprovidince_db_user:wJP1hE7ZVwHToP9F@pmappcluster.rugvemc.mongodb.net/?appName=PMappCluster
 Set JWT_SECRET
 
 Run:
